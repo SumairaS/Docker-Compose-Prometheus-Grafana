@@ -1,5 +1,5 @@
 # Prometheus and Grafana Monitoring Setup
-To set up a monitoring solution for your local server using Prometheus and Grafana, all within one Docker Compose:
+To set up a monitoring solution for your local server using Prometheus and Grafana, here we have all within one Docker Compose:
 
 ****Prerequisites****
 Ensure Docker and Docker Compose are installed on your local machine.
