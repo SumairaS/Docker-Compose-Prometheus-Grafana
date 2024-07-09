@@ -33,6 +33,6 @@ Password: admin
 
 4. To Stop all the services:
    ```sh
-    docker-compose up -d
+    docker-compose down
 
    
