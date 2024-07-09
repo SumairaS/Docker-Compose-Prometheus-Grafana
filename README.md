@@ -5,6 +5,18 @@ To set up a monitoring solution for your local server using Prometheus and Grafa
 Ensure Docker and Docker Compose are installed on your local machine.
 
 ****Step-by-Step Guide****
+
+Create a Docker Compose file (.yml) that contains both Grafana and Prometheus images.
+
+Link Prometheus to your session server Prometheus endpoint.
+
+Configure your Grafana data source to communicate with Prometheus and import the pre-configured dashboards.
+
+Configure the Grafana dashboards
+
+Access Grafana.
+
+**Instructions:**
 1. Clone the repository:
 
    ```sh
