@@ -45,7 +45,26 @@ Username: admin
 
 Password: admin
 
-4. To Stop all the services:
+Upon first login, you may be prompted to change the password.
+
+
+4. Configure Grafana to Use Prometheus Data Source
+Add Prometheus as a data source:
+
+Go to Configuration (gear icon) > Data Sources > Add data source.
+Select Prometheus.
+Set the URL to http://prometheus:9090.
+Click Save & Test.
+Create a new dashboard:
+
+Go to Create (plus icon) > Dashboard > Add new panel.
+Set your desired metrics and visualization.
+
+
+5. Explore Metrics in Grafana
+You can now create and customize dashboards in Grafana to visualize the metrics being scraped by Prometheus.
+
+**To Stop all the services:**
    ```sh
     docker-compose down
 
